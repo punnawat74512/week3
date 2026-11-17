@@ -6,15 +6,15 @@ import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
 <div class="max-w-sm rounded-2xl bg-white
-p-6 place-content-center shadow-lg">
-<h2 class="text-xl font-bold text-slate-900">
+p-6 shadow-lg place-content-center">
+<h2 class="text-xl font-bold text-slate-900 place-content-center">
 สวัสดี Tailwind
 </h2>
-<p class="mt-2 text-black">
+<p class="mt-2 text-black place-content-center">
 การ์ดใบแรกของฉัน
 </p>
 <button class="mt-4 rounded-lg bg-sky-700
-px-4 py-2 text-white">
+px-4 py-2 text-white place-content-center">
 เริ่มเลย
 </button>
 </div>
